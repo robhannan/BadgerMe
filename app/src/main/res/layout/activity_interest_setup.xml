@@ -21,205 +21,78 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
-
-    <ImageView
-        android:id="@+id/drink_icon"
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/interest_icon_drink"
-        android:elevation="3dp"
-        app:layout_constraintEnd_toEndOf="@+id/drink_frame"
-        app:layout_constraintStart_toStartOf="@+id/drink_frame"
-        app:layout_constraintTop_toTopOf="@+id/drink_frame"
-        app:srcCompat="@drawable/property_1_drinks" />
-
-    <ImageView
-        android:id="@+id/drink_frame"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="36dp"
-        android:background="@drawable/box_shadow"
-        android:elevation="2dp"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/heading2"
-        app:srcCompat="@drawable/multiselect_frame"
-        android:contentDescription="@string/drinks" />
-
-    <ImageView
-        android:id="@+id/coffee_icon"
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/interest_icon_coffee"
-        android:elevation="3dp"
-        app:layout_constraintEnd_toEndOf="@+id/coffee_frame"
-        app:layout_constraintStart_toStartOf="@+id/coffee_frame"
-        app:layout_constraintTop_toTopOf="@+id/coffee_frame"
-        app:srcCompat="@drawable/property_1_coffee" />
-
-    <ImageView
-        android:id="@+id/coffee_frame"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/box_shadow"
-        android:contentDescription="@string/coffees"
-        android:elevation="2dp"
-        app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/include"
-        app:srcCompat="@drawable/multiselect_frame" />
-
-    <ImageView
-        android:id="@+id/chat_icon"
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/interest_icon_chat"
-        android:elevation="3dp"
-        app:layout_constraintEnd_toEndOf="@+id/chat_frame"
-        app:layout_constraintStart_toStartOf="@+id/chat_frame"
-        app:layout_constraintTop_toTopOf="@+id/chat_frame"
-        app:srcCompat="@drawable/property_1_chats" />
-
-    <ImageView
-        android:id="@+id/chat_frame"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/box_shadow"
-        android:elevation="2dp"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/drink_frame"
-        app:srcCompat="@drawable/multiselect_frame"
-        android:contentDescription="@string/chats" />
-
-    <ImageView
-        android:id="@+id/walks_icon"
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/interest_icon_walks"
-        android:elevation="3dp"
-        app:layout_constraintEnd_toEndOf="@+id/walk_frame"
-        app:layout_constraintStart_toStartOf="@+id/walk_frame"
-        app:layout_constraintTop_toTopOf="@+id/walk_frame"
-        app:srcCompat="@drawable/property_1_walks" />
-
-    <ImageView
-        android:id="@+id/walk_frame"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="4dp"
-        android:background="@drawable/box_shadow"
-        android:elevation="2dp"
-        app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/coffee_frame"
-        app:srcCompat="@drawable/multiselect_frame"
-        android:contentDescription="@string/walks" />
-
-    <ImageView
-        android:id="@+id/hugs_icon"
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/interest_icon_hugs"
-        android:elevation="3dp"
-        app:layout_constraintEnd_toEndOf="@+id/hugs_frame"
-        app:layout_constraintStart_toStartOf="@+id/hugs_frame"
-        app:layout_constraintTop_toTopOf="@+id/hugs_frame"
-        app:srcCompat="@drawable/property_1_hugs" />
-
-    <ImageView
-        android:id="@+id/hugs_frame"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/box_shadow"
-        android:elevation="2dp"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/chat_frame"
-        app:srcCompat="@drawable/multiselect_frame"
-        android:contentDescription="@string/hugs" />
-
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
+        android:id="@+id/centreline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.50121653" />
 
-    <ImageView
-        android:id="@+id/drinks_tickbox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="4dp"
-        android:contentDescription="@string/drink_tickbox"
-        android:elevation="4dp"
-        app:layout_constraintEnd_toEndOf="@+id/drink_frame"
-        app:layout_constraintTop_toTopOf="@+id/drink_frame"
-        app:srcCompat="@drawable/multiselect_control" />
-
-    <ImageView
-        android:id="@+id/coffees_tickbox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="4dp"
-        android:contentDescription="@string/coffee_tickbox"
-        android:elevation="4dp"
-        app:layout_constraintEnd_toEndOf="@+id/coffee_frame"
-        app:layout_constraintTop_toTopOf="@+id/coffee_frame"
-        app:srcCompat="@drawable/multiselect_control" />
-
-    <ImageView
-        android:id="@+id/chats_tickbox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="4dp"
-        android:contentDescription="@string/chats_tickbox"
-        android:elevation="4dp"
-        app:layout_constraintEnd_toEndOf="@+id/chat_frame"
-        app:layout_constraintTop_toTopOf="@+id/chat_frame"
-        app:srcCompat="@drawable/multiselect_control" />
-
-    <ImageView
-        android:id="@+id/walks_tickbox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="4dp"
-        android:contentDescription="@string/walks_tickbox"
-        android:elevation="4dp"
-        app:layout_constraintEnd_toEndOf="@+id/walk_frame"
-        app:layout_constraintTop_toTopOf="@+id/walk_frame"
-        app:srcCompat="@drawable/multiselect_control" />
-
-    <ImageView
-        android:id="@+id/hugs_tickbox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="4dp"
-        android:contentDescription="@string/hugs_tickbox"
-        android:elevation="4dp"
-        app:layout_constraintEnd_toEndOf="@+id/hugs_frame"
-        app:layout_constraintTop_toTopOf="@+id/hugs_frame"
-        app:srcCompat="@drawable/multiselect_control" />
-
     <include
-        android:id="@+id/include"
+        android:id="@+id/eat"
         layout="@layout/interest_card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="4dp"
         android:scaleType="centerCrop"
-        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/centreline"
         app:layout_constraintTop_toBottomOf="@+id/heading2"/>
+
+    <include
+        android:id="@+id/drink"
+        layout="@layout/interest_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="@+id/centreline"
+        app:layout_constraintTop_toBottomOf="@+id/heading2" />
+
+    <include
+        android:id="@+id/coffee"
+        layout="@layout/interest_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/centreline"
+        app:layout_constraintTop_toBottomOf="@+id/eat" />
+
+    <include
+        android:id="@+id/chat"
+        layout="@layout/interest_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="@+id/centreline"
+        app:layout_constraintTop_toBottomOf="@+id/drink" />
+
+    <include
+        android:id="@+id/walks"
+        layout="@layout/interest_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/centreline"
+        app:layout_constraintTop_toBottomOf="@+id/coffee" />
+
+    <include
+        android:id="@+id/hugs"
+        layout="@layout/interest_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="@+id/centreline"
+        app:layout_constraintTop_toBottomOf="@+id/chat" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
