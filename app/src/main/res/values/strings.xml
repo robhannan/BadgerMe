@@ -9,4 +9,12 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="activity_food">Activity food</string>
+    <string name="activity_walk">Activity walk</string>
+    <string name="activity_drink">Activity drink</string>
+    <string name="activity_hugs">Activity hugs</string>
+    <string name="activity_chat">Activity chat</string>
+    <string name="app_title">Badger Me</string>
+    <string name="avatar_badger">Avatar badger</string>
+    <string name="highlight">Highlight</string>
 </resources>

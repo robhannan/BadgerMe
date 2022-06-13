@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/events_food.xml" value="0.212" />
+        <entry key="app/src/main/res/drawable/ic_activity_chats.xml" value="0.199" />
+        <entry key="app/src/main/res/drawable/ic_activity_walking.xml" value="0.199" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.277" />
+        <entry key="app/src/main/res/drawable/ic_type_badger.xml" value="0.199" />
+        <entry key="app/src/main/res/drawable/orange_box.xml" value="0.198" />
         <entry key="app/src/main/res/drawable/primary_button.xml" value="0.276" />
+        <entry key="app/src/main/res/drawable/temp.xml" value="0.212" />
         <entry key="app/src/main/res/layout-w1240dp/activity_login.xml" value="0.11144578313253012" />
         <entry key="app/src/main/res/layout-w936dp/activity_login.xml" value="0.12363387978142076" />
         <entry key="app/src/main/res/layout/activity_google_login.xml" value="0.25" />
