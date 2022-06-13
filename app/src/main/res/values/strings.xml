@@ -17,4 +17,24 @@
     <string name="app_title">Badger Me</string>
     <string name="avatar_badger">Avatar badger</string>
     <string name="highlight">Highlight</string>
+    <string name="interests_header">What are you interested in?</string>
+    <string name="eat_interest_icon">Eat interest icon</string>
+    <string name="interest_icon_hugs">Interest icon hugs</string>
+    <string name="interest_icon_walks">Interest icon walks</string>
+    <string name="interest_icon_chat">Interest icon chat</string>
+    <string name="interest_icon_coffee">Interest icon coffee</string>
+    <string name="interest_icon_drink">Interest icon drink</string>
+    <string name="hugs">hugs</string>
+    <string name="drinks">drinks</string>
+    <string name="coffees">coffees</string>
+    <string name="chats">chats</string>
+    <string name="walks">walks</string>
+    <string name="eat">eat</string>
+    <string name="eat_tickbox">eat tickbox</string>
+    <string name="drink_tickbox">drink tickbox</string>
+    <string name="coffee_tickbox">coffee tickbox</string>
+    <string name="chats_tickbox">chats tickbox</string>
+    <string name="walks_tickbox">walks tickbox</string>
+    <string name="hugs_tickbox">hugs tickbox</string>
+    <string name="interest">interest</string>
 </resources>

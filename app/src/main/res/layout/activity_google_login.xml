@@ -108,7 +108,7 @@
 
     <FrameLayout
         android:layout_width="286dp"
-        android:layout_height="36dp"
+        android:layout_height="65dp"
         android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -119,31 +119,34 @@
 
             <ImageView
                 android:id="@+id/imageView6"
-                android:layout_width="40dp"
-                android:layout_height="39dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="164dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginEnd="82dp"
-                android:layout_marginBottom="0dp"
+                android:layout_marginStart="168dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="42dp"
+                android:layout_marginBottom="2dp"
+                android:contentDescription="@string/highlight"
+                android:gravity="center_vertical"
                 app:layout_constraintHorizontal_bias="0.659"
-                app:srcCompat="@drawable/orange_box"
-                android:contentDescription="@string/highlight" />
+                app:srcCompat="@drawable/orange_box" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <TextView
                 android:id="@+id/heading"
                 android:layout_width="286dp"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
+                android:layout_height="match_parent"
+                android:gravity="center"
                 android:text="@string/app_title"
                 android:textAppearance="@style/heading"
+                android:textFontWeight="700"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
