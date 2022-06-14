@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InterestFragment">
+
+    <TextView
+        android:id="@+id/heading2"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/interests_header"
+        android:textAppearance="@style/display"
+        android:textFontWeight="700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/centreline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50121653" />
+
+    <include
+        android:id="@+id/eat"
+        layout="@layout/interest_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/centreline"
+        app:layout_constraintTop_toBottomOf="@+id/heading2"/>
+
+    <include
+        android:id="@+id/drink"
+        layout="@layout/interest_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="@+id/centreline"
+        app:layout_constraintTop_toBottomOf="@+id/heading2" />
+
+    <include
+        android:id="@+id/coffee"
+        layout="@layout/interest_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/centreline"
+        app:layout_constraintTop_toBottomOf="@+id/eat" />
+
+    <include
+        android:id="@+id/chat"
+        layout="@layout/interest_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="@+id/centreline"
+        app:layout_constraintTop_toBottomOf="@+id/drink" />
+
+    <include
+        android:id="@+id/walks"
+        layout="@layout/interest_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/centreline"
+        app:layout_constraintTop_toBottomOf="@+id/coffee" />
+
+    <include
+        android:id="@+id/hugs"
+        layout="@layout/interest_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="@+id/centreline"
+        app:layout_constraintTop_toBottomOf="@+id/chat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

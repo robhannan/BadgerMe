@@ -37,4 +37,6 @@
     <string name="walks_tickbox">walks tickbox</string>
     <string name="hugs_tickbox">hugs tickbox</string>
     <string name="interest">interest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
