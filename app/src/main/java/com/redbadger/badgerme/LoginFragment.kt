@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.navigation.fragment.NavHostFragment
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -54,8 +55,12 @@ class LoginFragment : Fragment() {
     }
 
     private val signInActivityResultLauncher =
-        registerForActivityResult(ActivityResultContracts.StartActivityForResult()){ result ->
-
+        registerForActivityResult(ActivityResultContracts.StartActivityForResult()){
+            val navHostFragment =
+                activity?.supportFragmentManager?.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+            val navController = navHostFragment.navController
+            val action = LoginFragmentDirections.actionLoginFragmentToInterestFragment()
+            navController.navigate(action)
         }
 
     private fun updateUI(account: GoogleSignInAccount?) {
