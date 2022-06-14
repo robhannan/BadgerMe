@@ -3,6 +3,7 @@
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     app:cardCornerRadius="4dp">
@@ -31,17 +32,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/property_1_food" />
 
-        <ImageView
-            android:id="@+id/tickbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:contentDescription="@string/eat_tickbox"
-            android:elevation="4dp"
-            app:layout_constraintEnd_toEndOf="@id/icon"
-            app:layout_constraintTop_toTopOf="@id/icon"
-            app:srcCompat="@drawable/multiselect_control" />
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:contentDescription="tickbox"
+        android:elevation="4dp"
+        android:button="@drawable/custom_checkbox"
+        android:background="@drawable/multiselect_control"
+        android:theme="@style/badgerCheckBox"
+
+        app:layout_constraintEnd_toEndOf="@id/icon"
+        app:layout_constraintTop_toTopOf="@id/icon" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.cardview.widget.CardView>
