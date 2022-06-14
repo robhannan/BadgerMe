@@ -6,31 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".LoginFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <ImageView
         android:id="@+id/sign_in_button"
         android:layout_width="343dp"
         android:layout_height="48dp"
+        android:layout_marginBottom="60dp"
         android:background="@drawable/primary_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944">
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <TextView
-            android:id="@+id/label"
-            android:layout_width="311dp"
-            android:layout_height="20dp"
-            android:gravity="center_horizontal|center_vertical"
-            android:lineSpacingExtra="1sp"
-            android:text="@string/action_sign_in_short"
-            android:textAppearance="@style/primary_button_label"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="311dp"
+        android:layout_height="20dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:lineSpacingExtra="1sp"
+        android:text="@string/action_sign_in_short"
+        android:textAppearance="@style/primary_button_label"
+        app:layout_constraintBottom_toBottomOf="@+id/sign_in_button"
+        app:layout_constraintEnd_toEndOf="@+id/sign_in_button"
+        app:layout_constraintStart_toStartOf="@+id/sign_in_button"
+        app:layout_constraintTop_toTopOf="@+id/sign_in_button" />
 
     <ImageView
         android:id="@+id/imageView"
