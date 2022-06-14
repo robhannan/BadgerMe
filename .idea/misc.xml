@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/box_shadow.xml" value="0.2355" />
+        <entry key="app/src/main/res/drawable/custom_checkbox.xml" value="0.3425" />
         <entry key="app/src/main/res/drawable/events_food.xml" value="0.212" />
         <entry key="app/src/main/res/drawable/ic_activity_chats.xml" value="0.199" />
         <entry key="app/src/main/res/drawable/ic_activity_walking.xml" value="0.199" />
@@ -18,6 +19,7 @@
         <entry key="app/src/main/res/drawable/temp.xml" value="0.212" />
         <entry key="app/src/main/res/layout-w1240dp/activity_login.xml" value="0.11144578313253012" />
         <entry key="app/src/main/res/layout-w936dp/activity_login.xml" value="0.12363387978142076" />
+        <entry key="app/src/main/res/layout/activity_badger_me.xml" value="0.3692708333333333" />
         <entry key="app/src/main/res/layout/activity_google_login.xml" value="0.28940217391304346" />
         <entry key="app/src/main/res/layout/activity_interest_setup.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.15" />

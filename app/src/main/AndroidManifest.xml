@@ -13,10 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BadgerMe">
         <activity
-            android:name=".InterestSetup"
-            android:exported="false" />
-        <activity
-            android:name=".GoogleLogin"
+            android:name=".BadgerMe"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

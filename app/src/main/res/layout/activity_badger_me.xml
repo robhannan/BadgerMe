@@ -4,13 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GoogleLogin">
-
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragment_container_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:name="com.redbadger.badgerme.LoginFragment" />
+    tools:context=".BadgerMe">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/nav_host_fragment"
